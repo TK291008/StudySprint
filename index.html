@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="StudySprint is a modern, free JEE preparation platform for Physics, Chemistry, Mathematics, formulas, tools and revision support."
+    />
+    <title>StudySprint | Free JEE Study Companion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="page-loader" aria-hidden="true">
+      <div class="loader"></div>
+    </div>
+
+    <header class="site-header" id="top">
+      <nav class="navbar">
+        <a class="brand" href="#home" aria-label="StudySprint home">
+          <span class="brand-mark"></span>
+          <span>StudySprint</span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="pages/physics.html" class="nav-link">Physics</a>
+          <a href="pages/chemistry.html" class="nav-link">Chemistry</a>
+          <a href="pages/maths.html" class="nav-link">Mathematics</a>
+          <a href="#tools" class="nav-link">Tools</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#features" class="btn btn-small">Get Started</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Free JEE learning platform</p>
+          <h1>StudySprint</h1>
+          <p class="subtitle">Your Free JEE Study Companion</p>
+          <p class="hero-description">
+            Master Physics, Chemistry and Mathematics with formulas, revision
+            tools and smart study resources.
+          </p>
+
+          <form class="search-bar" role="search">
+            <input
+              type="text"
+              placeholder="Search formulas, chapters, concepts..."
+              aria-label="Search concepts"
+            />
+            <button type="submit">Search</button>
+          </form>
+
+          <div class="hero-actions">
+            <a href="#features" class="btn btn-primary">Explore Notes</a>
+            <a href="#tools" class="btn btn-secondary">Study Tools</a>
+          </div>
+
+          <div class="hero-badges">
+            <span>Formula Vault</span>
+            <span>Revision Planner</span>
+            <span>Smart Tools</span>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal" aria-hidden="true">
+          <div class="visual-card main-card">
+            <div class="visual-header">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="visual-body">
+              <div class="visual-panel big">
+                <p>JEE Mastery</p>
+                <strong>Daily Sprint</strong>
+              </div>
+              <div class="visual-panel small">
+                <p>Focus</p>
+                <strong>92%</strong>
+              </div>
+            </div>
+          </div>
+          <div class="visual-card floating-card">
+            <p>Revision</p>
+            <strong>10 chapters</strong>
+          </div>
+          <div class="orb orb-one"></div>
+          <div class="orb orb-two"></div>
+          <div class="ring"></div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Learning modules</p>
+          <h2>Everything you need to sprint through JEE</h2>
+          <p>
+            Build a stronger foundation with structured notes, fast revision aids
+            and practical tools.
+          </p>
+        </div>
+
+        <div class="card-grid">
+          <article class="feature-card reveal">
+            <div class="icon">⚛️</div>
+            <h3>Physics</h3>
+            <p>Concept notes, derivations and formula summaries for every core unit.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">🧪</div>
+            <h3>Chemistry</h3>
+            <p>Concise reaction notes, organic shortcuts and chapter-wise revision cues.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">📐</div>
+            <h3>Mathematics</h3>
+            <p>Step-by-step problem approaches and key formula packs for faster practice.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">📝</div>
+            <h3>Formula Sheets</h3>
+            <p>Quick-reference sheets for formulas, identities and high-yield concepts.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">🗓️</div>
+            <h3>Revision Planner</h3>
+            <p>Structured study plans that help you balance classes, revision and mock prep.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">🛠️</div>
+            <h3>Study Tools</h3>
+            <p>Useful utilities like calculators, timers and planners to support daily prep.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section why-section" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Why StudySprint</p>
+          <h2>Designed for focused, stress-free JEE preparation</h2>
+        </div>
+
+        <div class="why-grid">
+          <article class="why-box reveal">
+            <h3>Fast Revision</h3>
+            <p>Find key points instantly and revise smarter with compact study aids.</p>
+          </article>
+          <article class="why-box reveal">
+            <h3>Completely Free</h3>
+            <p>Access valuable study support without any paywalls or subscriptions.</p>
+          </article>
+          <article class="why-box reveal">
+            <h3>Designed for JEE Aspirants</h3>
+            <p>Tailored to the pace and demands of serious test preparation every day.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="tools">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Tools</p>
+          <h2>Practical utilities for your daily study sprint</h2>
+        </div>
+
+        <div class="card-grid tools-grid">
+          <article class="feature-card reveal">
+            <div class="icon">⏱️</div>
+            <h3>Pomodoro Timer</h3>
+            <p>Stay productive with focused study blocks and restorative breaks.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">📊</div>
+            <h3>Attendance Calculator</h3>
+            <p>Track attendance smoothly and keep an eye on your progress.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">📈</div>
+            <h3>Percentage Calculator</h3>
+            <p>Compute scores and performance metrics in a few clicks.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">🎓</div>
+            <h3>CGPA Calculator</h3>
+            <p>Plan academic performance with quick CGPA estimation tools.</p>
+          </article>
+          <article class="feature-card reveal">
+            <div class="icon">🧮</div>
+            <h3>Scientific Calculator</h3>
+            <p>Handle complex calculations with a clean, minimal calculator interface.</p>
+          </article>
+          <article class="feature-card reveal coming-soon">
+            <div class="icon">✨</div>
+            <h3>Coming Soon...</h3>
+            <p>More intelligent study utilities are on the way.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stats-section">
+        <div class="stat-card reveal">
+          <span class="counter" data-target="100">0</span>
+          <p>Formula Sheets</p>
+        </div>
+        <div class="stat-card reveal">
+          <span class="counter" data-target="50">0</span>
+          <p>Tools Planned</p>
+        </div>
+        <div class="stat-card reveal">
+          <span class="counter" data-target="1000">0</span>
+          <p>Future Students</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-brand reveal">
+        <h3>StudySprint</h3>
+        <p>Built for focused minds and ambitious JEE journeys.</p>
+      </div>
+      <div class="footer-links reveal">
+        <h4>Quick Links</h4>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#tools">Tools</a>
+      </div>
+      <div class="footer-links reveal">
+        <h4>Resources</h4>
+        <a href="pages/physics.html">Physics</a>
+        <a href="pages/chemistry.html">Chemistry</a>
+        <a href="pages/maths.html">Mathematics</a>
+      </div>
+      <div class="footer-links reveal">
+        <h4>Contact</h4>
+        <a href="mailto:hello@studysprint.dev">hello@studysprint.dev</a>
+        <a href="#about">About</a>
+      </div>
+    </footer>
+
+    <button class="scroll-top" aria-label="Scroll to top">↑</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
